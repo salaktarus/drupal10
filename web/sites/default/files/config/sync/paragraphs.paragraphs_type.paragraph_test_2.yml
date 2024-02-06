@@ -1,0 +1,17 @@
+uuid: cc004abb-fa69-4400-9912-6b2894fabc14
+langcode: fr
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+id: paragraph_test_2
+label: 'Paragraph test 2'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      pattern_banner: Banner
+      pattern_card: Card

@@ -1,0 +1,30 @@
+uuid: c589115a-9499-49a9-8175-82080649379b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_test.field_description
+    - paragraphs.paragraphs_type.paragraph_test
+  module:
+    - text
+id: paragraph.paragraph_test.default
+targetEntityType: paragraph
+bundle: paragraph_test
+mode: default
+content:
+  field_description:
+    type: text_textfield
+    weight: -199
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  layout_paragraphs_fields:
+    weight: -200
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

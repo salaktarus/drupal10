@@ -1,0 +1,17 @@
+uuid: 208758fb-d706-405c-ab77-0bc357254980
+langcode: fr
+status: true
+dependencies:
+  module:
+    - layout_paragraphs
+id: paragraph_test
+label: 'Paragraph test'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins:
+  layout_paragraphs:
+    enabled: true
+    available_layouts:
+      layout_onecol: 'One column'
+      layout_twocol: 'Two column'

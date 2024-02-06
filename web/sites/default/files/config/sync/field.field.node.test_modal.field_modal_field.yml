@@ -1,0 +1,19 @@
+uuid: f2e6a947-b060-4310-8b17-37e3a9440a1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_modal_field
+    - node.type.test_modal
+id: node.test_modal.field_modal_field
+field_name: field_modal_field
+entity_type: node
+bundle: test_modal
+label: 'Modal field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,9 @@
+name: 'UI Skins Test Disabled'
+type: module
+description: 'Disables test plugin.'
+package: 'Testing'
+
+# Information added by Drupal.org packaging script on 2024-02-01
+version: '1.0.0-alpha6'
+project: 'ui_skins'
+datestamp: 1706779567

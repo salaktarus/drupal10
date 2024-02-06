@@ -1,0 +1,22 @@
+uuid: 0a3bf7b8-b535-446e-b555-541ff481e501
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ui_suite_material
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: ui_suite_material_help
+theme: ui_suite_material
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  label_display: '0'
+  provider: help
+visibility: {  }

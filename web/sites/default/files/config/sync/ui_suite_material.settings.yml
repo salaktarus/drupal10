@@ -1,0 +1,9 @@
+ui_skins_css_variables:
+  mdc_theme_secondary:
+    ':root': '#80ff00'
+  mdc_theme_text_primary_on_dark:
+    ':root': '#00000000'
+  mdc_theme_text_primary_on_background:
+    ':root': '#000000de'
+  mdc_theme_text_secondary_on_background:
+    ':root': '#000000c4'

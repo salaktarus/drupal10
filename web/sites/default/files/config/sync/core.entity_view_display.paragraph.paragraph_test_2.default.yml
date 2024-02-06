@@ -1,0 +1,22 @@
+uuid: 4f1db744-d07c-43e0-8b32-6d8cad61eadc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_test_2.field_description_paragraph_2
+    - paragraphs.paragraphs_type.paragraph_test_2
+  module:
+    - text
+id: paragraph.paragraph_test_2.default
+targetEntityType: paragraph
+bundle: paragraph_test_2
+mode: default
+content:
+  field_description_paragraph_2:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

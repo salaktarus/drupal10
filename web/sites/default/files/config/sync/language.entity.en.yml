@@ -1,0 +1,9 @@
+uuid: bc11c173-dc99-4ebc-a039-ca66430235ef
+langcode: en
+status: true
+dependencies: {  }
+id: en
+label: English
+direction: ltr
+weight: 1
+locked: false

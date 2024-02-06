@@ -1,0 +1,28 @@
+uuid: 2c6e5e95-2e5e-42c7-bc07-e68d96e3233d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test_modal.field_modal_field
+    - node.type.test_modal
+  module:
+    - user
+id: node.test_modal.default
+targetEntityType: node
+bundle: test_modal
+mode: default
+content:
+  field_modal_field:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: df728e6a-c0a6-498b-8a45-977d17fe40a8
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ui_suite_material
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: ui_suite_material_primary_local_tasks
+theme: ui_suite_material
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

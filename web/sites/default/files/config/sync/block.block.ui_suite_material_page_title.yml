@@ -1,0 +1,20 @@
+uuid: df87d01e-fd38-467a-9516-926495001f56
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ui_suite_material
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: ui_suite_material_page_title
+theme: ui_suite_material
+region: header_title
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

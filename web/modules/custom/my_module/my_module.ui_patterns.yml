@@ -1,0 +1,13 @@
+blockquote:
+  label: Blockquote
+  description: Display a Blockquote with attribution information.
+  variants:
+    default:
+      label: Default
+      description: An ordinary quote.
+  fields:
+    quote:
+      type: text
+      label: Quote
+      description: Quote text.
+      preview: Test preview.

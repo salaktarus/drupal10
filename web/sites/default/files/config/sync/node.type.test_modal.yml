@@ -1,0 +1,17 @@
+uuid: a519d281-29fa-4bed-a3cf-e5b63e056d99
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Test Modal'
+type: test_modal
+description: 'Test Modal Content type'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

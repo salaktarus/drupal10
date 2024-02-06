@@ -1,0 +1,11 @@
+uuid: ce059c24-20db-419e-8652-62094fc55aad
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_modal
+id: node.test_modal
+target_entity_type_id: node
+target_bundle: test_modal
+default_langcode: site_default
+language_alterable: false

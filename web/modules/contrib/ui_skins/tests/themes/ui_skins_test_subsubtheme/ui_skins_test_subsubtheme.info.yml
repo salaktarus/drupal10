@@ -1,0 +1,10 @@
+name: 'UI Skins Test Sub-Sub-Theme'
+type: theme
+description: 'UI Skins test theme.'
+base theme: ui_skins_test_subtheme
+package: 'Testing'
+
+# Information added by Drupal.org packaging script on 2024-02-01
+version: '1.0.0-alpha6'
+project: 'ui_skins'
+datestamp: 1706779567

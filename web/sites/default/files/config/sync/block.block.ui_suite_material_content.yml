@@ -1,0 +1,22 @@
+uuid: c3215fce-1eb1-48ff-bce2-315380e8a94a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ui_suite_material
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: ui_suite_material_content
+theme: ui_suite_material
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

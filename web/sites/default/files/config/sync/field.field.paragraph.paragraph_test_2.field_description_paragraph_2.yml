@@ -1,0 +1,22 @@
+uuid: 08ba5a1f-f476-4435-9046-7ddcebf16afb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description_paragraph_2
+    - paragraphs.paragraphs_type.paragraph_test_2
+  module:
+    - text
+id: paragraph.paragraph_test_2.field_description_paragraph_2
+field_name: field_description_paragraph_2
+entity_type: paragraph
+bundle: paragraph_test_2
+label: 'Description paragraph 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

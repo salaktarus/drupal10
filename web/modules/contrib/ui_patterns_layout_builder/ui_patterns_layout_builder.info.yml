@@ -1,0 +1,13 @@
+name: UI Patterns Layout Builder
+type: module
+description: Layout Builder
+core_version_requirement: ^8 || ^9 || ^10
+package: User interface
+dependencies:
+  - ui_patterns:ui_patterns
+  - drupal:layout_builder
+
+# Information added by Drupal.org packaging script on 2022-12-16
+version: '8.x-1.2'
+project: 'ui_patterns_layout_builder'
+datestamp: 1671214960
