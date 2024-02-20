@@ -1,7 +1,0 @@
-foo_layout_builder:
-  label: Foo UI Pattern layout
-  icon_path: 'docroot/xy'
-  fields:
-    text:
-      type: text
-      label: Text
